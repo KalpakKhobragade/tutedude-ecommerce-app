@@ -83,8 +83,7 @@ val USE_FIREBASE_STORAGE: Boolean = false
 Kotlin, Jetpack Compose (Material 3), Navigation Compose, MVVM, Hilt, Room, Firebase Auth,
 Firebase Firestore, Firebase Storage (optional switch), Retrofit + Gson, Coil, Kotlin Coroutines and Flow.
 
-## screenshots
-Add your screenshots in a `screenshots/` folder and list them here:
+## Screenshots
 
 | Login | Register | Home |
 |---|---|---|
