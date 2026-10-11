@@ -1,0 +1,18 @@
+{
+  "NOTE": "This is only an example of the file's shape. Replace it by downloading YOUR real google-services.json from the Firebase console and saving it as app/google-services.json",
+  "project_info": {
+    "project_number": "000000000000",
+    "project_id": "your-project-id",
+    "storage_bucket": "your-project-id.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:0000000000000000",
+        "android_client_info": { "package_name": "com.example.ecommerceapp" }
+      },
+      "api_key": [ { "current_key": "YOUR_API_KEY" } ]
+    }
+  ],
+  "configuration_version": "1"
+}

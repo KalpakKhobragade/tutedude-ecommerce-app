@@ -1,0 +1,12 @@
+// Only needed if you set USE_FIREBASE_STORAGE = true in AppConfig.kt (requires Blaze plan)
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /products/{allPaths=**} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null
+                   && request.resource.size < 10 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*');
+    }
+  }
+}
